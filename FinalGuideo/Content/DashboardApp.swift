@@ -53,9 +53,9 @@ struct Home: View {
             }
             
             
-            HStack(spacing: 0){ // Background -> tab bar
+            HStack(spacing: 0){ 
                 
-                HStack { // Foreground content -> icons
+                HStack {
                     
                     ForEach(tabs, id: \.self) {image in
                         
